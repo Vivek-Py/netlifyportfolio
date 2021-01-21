@@ -1,3 +1,11 @@
+a:active {
+    font-weight: bold;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
 .navbar{
     max-width: 800px;
     margin: auto;
@@ -40,6 +48,15 @@
     color: #3b2a2a;
     font-family: 'Noto Sans SC', sans-serif;
 }
+
+.list-itemb{
+    margin: 8px;
+    text-decoration: none;
+    color: #3b2a2a;
+    font-family: 'Noto Sans SC', sans-serif;
+    list-style: none;
+}
+
 
 .container{
     margin: auto;
@@ -104,4 +121,16 @@ img{
     padding-right: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.ol-container{
+    list-style-type: none;
+}
+
+.button-link{
+    text-decoration: none;
+}
+
+.buttoncls{
+    background-color: #b0c5ff;
 }
