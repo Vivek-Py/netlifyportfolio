@@ -5,20 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Vivek </title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#">Vivek Pandey</a>
+    <nav class="navbar">
+        <div class="fluid-container">
+            <div class="navbrand">
+                <a class="name" href="#">Vivek Pandey</a>
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
+            <div class="navcontent">
+                <a class="list-item" href="#">Home</a>
+                <a class="list-item" href="#">Blog</a>
+                <a class="list-item" href="#">Projects</a>
+            </div>
         </div>
     </nav>
+
+    <header class="container">
+        <div class="img-container">
+            <img src="res/developer.svg" alt="Illustration of an developer.">
+        </div>
+        <div class="font" id="font-color">
+            Vivek Pandey - The Web Developer
+        </div>
+        <div>
+            <p class="font">
+                I'm an aspiring software engineer focused on building things which will help millions if not billions.
+            </p>
+        </div>
+    </header>
+
+    <div class="container colored-container1">
+        <h4 class="font">Skillset</h2>
+        <p class="paragraph">My skillset includes HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, Repl.it and Web Hosting.</p>
+    </div>
+    <div class="container colored-container2">
+        <h4 class="font">Projects</h4>
+        <p class="paragraph">I've worked on numerous projects, you can checkout some of them here.</p>
+    </div>
+    <div class="container colored-container3">
+        <h4 class="font">Blogs</h4>
+        <p class="paragraph">I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+    </div>
+
+    <footer class="container colored-container4">
+        <h4 class="font">Social Media Presence</h4>
+        <p class="paragraph">
+            <a class="list-itema" href="https://twitter.com/iamvivekpandey">Twitter</a> 
+            <a class="list-itema" href="https://github.com/vivek-py">Github</a> 
+            <a class="list-itema" href="https://linkedin.com/in/vivekpy2000">LinkedIn</a></p>
+    </footer>
 </body>
 </html>
