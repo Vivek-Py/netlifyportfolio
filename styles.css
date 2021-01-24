@@ -91,6 +91,7 @@ img{
     font-weight: 500;
     padding-top: 20px;
     background: -webkit-linear-gradient(#fcfcfc, #6986d8);
+    background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
